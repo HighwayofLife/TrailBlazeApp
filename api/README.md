@@ -15,6 +15,10 @@ The TrailBlaze API is organized into several domain-specific APIs:
 7. **Location API** (`location_api.yaml`): Provides navigation and location services for ride events.
 8. **Assistant API** (`assistant_api.yaml`): Powers the AI Q&A and ride assistance features.
 9. **Weather API** (`weather_api.yaml`): Delivers weather forecasts and trail conditions for ride locations.
+10. **Notifications API** (`notifications_api.yaml`): Manages user notifications and preferences.
+11. **Media API** (`media_api.yaml`): Handles photos, videos, and GPS track uploads/retrieval.
+12. **Social API** (`social_api.yaml`): Manages social interactions between users.
+13. **Feedback API** (`feedback_api.yaml`): Handles user feedback and issue reporting.
 
 ## Authentication
 

@@ -11,6 +11,7 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
+Thumbs.db
 
 # IntelliJ related
 *.iml
@@ -21,30 +22,14 @@ migrate_working_dir/
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
-#.vscode/
+.vscode/
+*.code-workspace
+.classpath
+.project
+.settings/
 
 # Flutter/Dart/Pub related
 **/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
-
-# Flutter/Dart specific
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
@@ -52,11 +37,29 @@ app.*.map.json
 .pub/
 .pub-cache/
 build/
-# pubspec.lock -- sometimes kept for teams to ensure same package versions
 flutter_*.png
 linked_*.ds
 unlinked.ds
 unlinked_spec.ds
+**/Flutter.podspec
+**/Generated.xcconfig
+lib/generated_plugin_registrant.dart
+
+# Generated files
+*.g.dart
+*.freezed.dart
+
+# Symbolication related
+app.*.symbols
+app.*.map.json
+
+# Obfuscation related
+app.*.map.json
+
+# Build outputs
+**/*.apk
+**/*.aab
+**/*.so
 
 # Android specific
 **/android/gradle-wrapper.jar
@@ -67,9 +70,9 @@ unlinked_spec.ds
 **/android/local.properties
 **/android/**/GeneratedPluginRegistrant.java
 **/android/key.properties
-*.jks
-**/android/app/google-services.json
+**/android/app/build/
 **/android/.cxx/
+*.jks
 
 # iOS specific
 **/ios/Flutter/.last_build_id
@@ -83,6 +86,7 @@ unlinked_spec.ds
 **/ios/Flutter/flutter_export_environment.sh
 **/ios/ServiceDefinitions.json
 **/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Runner.xcworkspace/
 **/ios/Pods/
 
 # macOS specific
@@ -105,41 +109,15 @@ unlinked_spec.ds
 # Web specific
 **/web/favicon.png
 
-# IDE specific (IntelliJ, VS Code, Android Studio)
-.idea/
-**/*.iml
-.vscode/
-.classpath
-.project
-.settings/
-*.code-workspace
-
 # Coverage
 coverage/
 
-# Generated files
-*.g.dart
-*.freezed.dart
-lib/generated_plugin_registrant.dart
-
-# Build files
-app.*.map.json
-app-*.apk
-app-*.aab
-*.so
-app.*.symbols
-
-# System files
-.DS_Store
-Thumbs.db
-
 # Environment variables and secrets
 .env
-**/*.env
+.env.*
 !.env.example
+key.properties
 
 # Firebase
 firebase_options.dart
-
-# Log files
-*.log
+google-services.json
