@@ -26,7 +26,7 @@ class ApiService {
       await Future.delayed(const Duration(seconds: 1)); // Simulate network delay
       
       return [
-        Event(
+        const Event(
           id: '1',
           name: 'Grizzly Mountain Ride',
           date: 'June 15-16, 2024',
@@ -37,7 +37,7 @@ class ApiService {
           latitude: 44.3429,
           longitude: -120.6581,
         ),
-        Event(
+        const Event(
           id: '2',
           name: 'Mt. Adams Endurance Ride',
           date: 'July 6, 2024',
@@ -48,7 +48,7 @@ class ApiService {
           latitude: 46.1548,
           longitude: -121.5456,
         ),
-        Event(
+        const Event(
           id: '3',
           name: 'Bandit Springs',
           date: 'July 20-21, 2024',

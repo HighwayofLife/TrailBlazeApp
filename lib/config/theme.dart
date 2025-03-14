@@ -10,7 +10,7 @@ class TrailBlazeTheme {
   // Light theme
   static final ThemeData lightTheme = ThemeData(
     useMaterial3: true,
-    colorScheme: ColorScheme.light(
+    colorScheme: const ColorScheme.light(
       primary: primaryColor,
       secondary: accentColor,
       surface: backgroundLight,
@@ -36,7 +36,7 @@ class TrailBlazeTheme {
   // Dark theme
   static final ThemeData darkTheme = ThemeData(
     useMaterial3: true,
-    colorScheme: ColorScheme.dark(
+    colorScheme: const ColorScheme.dark(
       primary: primaryColor,
       secondary: accentColor,
       surface: backgroundDark,

@@ -7,7 +7,7 @@ class EventsScreen extends StatelessWidget {
 
   // This would eventually come from the API
   List<Event> get _mockEvents => [
-    Event(
+    const Event(
       id: '1',
       name: 'Grizzly Mountain Ride',
       date: 'June 15-16, 2024',
@@ -15,7 +15,7 @@ class EventsScreen extends StatelessWidget {
       distances: ['25 miles', '50 miles', '100 miles'],
       organization: 'PNER',
     ),
-    Event(
+    const Event(
       id: '2',
       name: 'Mt. Adams Endurance Ride',
       date: 'July 6, 2024',
@@ -23,7 +23,7 @@ class EventsScreen extends StatelessWidget {
       distances: ['30 miles', '50 miles', '75 miles'],
       organization: 'PNER',
     ),
-    Event(
+    const Event(
       id: '3',
       name: 'Bandit Springs',
       date: 'July 20-21, 2024',
