@@ -5,6 +5,8 @@ A cross-platform mobile app for horseback riders focusing on endurance and trail
 ## Overview
 TrailBlaze is a cross-platform mobile app tailored for horseback riders on trails, focusing on distance-related sports such as endurance riding, CTR (Competitive Trail Ride), Ride and Tie, and general trail riding. The app helps riders easily find ride events, plan their trips, get answers to common questions, and connect with ride information, regardless of their location. Initially focused on the Pacific Northwest Endurance Rides (PNER) region, TrailBlaze aims to support riders across North America and beyond.
 
+TrailBlaze will be free for users to download and use.
+
 ## Why TrailBlaze?
 Endurance and trail riders often struggle with scattered event information and a lack of centralized planning tools. TrailBlaze solves these problems by bringing all relevant ride data together, ensuring riders can focus on their journey instead of logistics.
 
@@ -35,88 +37,15 @@ While the MVP focuses on the PNER region, TrailBlaze has ambitious plans to expa
 - **Personal Stats & Leaderboards** – Track completed rides, competition standings, and personal endurance milestones.
 - **Push Notifications & Ride Reminders** – Stay updated with event changes, deadlines, and alerts.
 
-## Monetization Strategy
-TrailBlaze will be free for users to download and use. The primary monetization will be through sponsorships and advertising, ensuring a low barrier to entry and wide adoption within the community.
-
-## Licensing
-TrailBlaze is licensed under the **Apache License 2.0**, allowing for flexibility in future licensing decisions while ensuring that the codebase remains adaptable for open-source or proprietary use.
-
 ## Development & Contributions
 Currently, TrailBlaze is in private development and is not publicly available on GitHub. While the app is not yet open-source, we are considering future community-driven development models. If you are interested in contributing or partnering with the project, feel free to reach out.
 
-## Stay Connected
-For updates, announcements, and potential early access opportunities, stay tuned for future developments.
-
-## Getting Started
-
-### Prerequisites
-
-- [Flutter](https://flutter.dev/docs/get-started/install) (version 3.0.0 or higher)
-- [Dart](https://dart.dev/get-dart) (version 3.0.0 or higher)
-- Android Studio or Xcode for native platform development
-
-### Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/highwayoflife/TrailBlazeApp.git
-   cd TrailBlazeApp
-   ```
-
-2. Install dependencies:
-   ```
-   flutter pub get
-   ```
-
-3. Run the app:
-   ```
-   flutter run
-   ```
-
-## Building the App
-
-### Android
-
-```
-flutter build apk --release
-```
-
-The APK will be located at `build/app/outputs/flutter-apk/app-release.apk`
-
-### iOS
-
-```
-flutter build ios --release
-```
-
-Then open the project in Xcode to archive and distribute:
-```
-open ios/Runner.xcworkspace
-```
-
-## Project Structure
-
-```
-lib/
-├── config/           # App configuration (themes, routes, etc.)
-├── models/           # Data models
-├── screens/          # App screens
-├── services/         # API and other services
-├── utils/            # Utility functions
-├── widgets/          # Reusable UI components
-└── main.dart         # App entry point
-```
-
-## Features
-
-- Event calendar with details of upcoming endurance rides
-- Trip planning tool with directions to ride locations
-- AI-powered Q&A assistant for ride-related questions
-- Weather integration for ride locations
-- Offline access to event information
+## Documentation
+For technical details including setup instructions, architecture, and implementation plans, please refer to:
+- [Initial Launch Technical Overview](docs/initial_launch_tech.md)
+- [Application Implementation Plan](docs/app_plan.md)
 
 ## License
-
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ---
